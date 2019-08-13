@@ -326,8 +326,6 @@ the_end:
         if (!s->has_complete_frame) {
             if (!s->got_mxm_bitmask)
                 s->has_complete_frame = 1;
-            else
-                *got_frame = 0;
         }
     }
 
